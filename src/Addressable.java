@@ -1,0 +1,8 @@
+package myTest;
+
+import java.util.List;
+
+public interface Addressable {
+	List<Address> getAddresses();
+	void addAddress(Address address);
+}
