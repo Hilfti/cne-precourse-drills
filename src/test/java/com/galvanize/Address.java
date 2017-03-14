@@ -1,8 +1,4 @@
-/**
- * 
- */
-package myTest;
-
+package com.galvanize;
 
 public class Address {
 

@@ -1,11 +1,11 @@
-package myTest;
+package com.galvanize;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Business {
+public class Business implements Addressable{
 	private final String name;
-	private ArrayList<Address> addresses = new ArrayList<Address>();
+	private final ArrayList<Address> addresses = new ArrayList<Address>();
 
     public Business(String name)
 	{
@@ -15,11 +15,11 @@ public class Business {
 	{
 		return name;
 	}
-    void addAddress(Address address)
+    public void addAddress(Address address)
 	{
     	 addresses.add(address);
 	}
-    List<Address> getAddresses()
+    public List<Address> getAddresses()
 	{
 		return addresses;
 	}

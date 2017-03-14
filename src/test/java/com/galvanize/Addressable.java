@@ -1,4 +1,4 @@
-package myTest;
+package com.galvanize;
 
 import java.util.List;
 
